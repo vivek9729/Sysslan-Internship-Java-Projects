@@ -26,16 +26,14 @@ The projects demonstrate:
 - Maven Project Management
 - Web Scraping using JSoup
 
----
-
 ## 📂 Projects Included
 
-| Project | Description |
-|----------|-------------|
-| 🌐 Web Scraper | Extracts website information such as titles, headings, links, and meta descriptions using JSoup. |
-| 📁 Automated Folder Backup Tool | Creates recursive backups while preserving the folder structure using Java NIO. |
-| 📦 CSV Inventory Management System | Manages inventory records using CSV files with search, update, and reporting features. |
-| 📝 Personal Notes Manager | Allows users to create, search, update, and manage notes using file handling. |
+| Project | Description | Key Technologies |
+|----------|-------------|------------------|
+| 🌐 Web Scraper | Extracts webpage title, headings, hyperlinks and metadata using JSoup. | Java, Maven, JSoup |
+| 📁 Automated Folder Backup Tool | Creates recursive backups while preserving the original directory structure. | Java NIO, File Handling |
+| 📦 CSV Inventory Management System | Manages product inventory using CSV files with search and update operations. | Java Collections, CSV Processing |
+| 📝 Personal Notes Manager | Provides note creation, search and management using text file storage. | File Handling, OOP |
 
 
 ---
@@ -66,24 +64,30 @@ The projects demonstrate:
 - Designing menu-driven applications
 
 
----
-
 ## 📁 Repository Structure
 
 ```text
 Sysslan-Internship-Java-Projects
 │
 ├── README.md
-└── webscraping
+├── .github/
+│   └── modernize/
+│       └── java-upgrade/
+│
+└── Java Internship Project/
+    ├── .gitignore
     ├── pom.xml
-    ├── src
-    │   └── main
-    │       └── java
-    │           └── levelfive
-    │               ├── webscraper
-    │               ├── backuptool
-    │               ├── inventory
-    │               └── utility
+    ├── src/
+    │   └── main/
+    │       └── java/
+    │           └── levelfive/
+    │               ├── WebScraperApp.java
+    │               ├── backuptool/
+    │               │   └── FolderBackupTool.java
+    │               ├── inventory/
+    │               │   └── InventoryManagementSystem.java
+    │               └── utility/
+    │                   └── PersonalNotesManager.java
     ├── inventory.csv
     ├── notes.txt
     ├── scraped_data.txt
@@ -102,3 +106,61 @@ The project follows a modular package structure where each package represents an
 | `backuptool` | Folder backup and directory management |
 | `inventory` | CSV-based inventory management system |
 | `utility` | Personal notes management system |
+
+
+---
+
+## ▶️ How to Run
+
+### Prerequisites
+
+- Java 17 or later
+- Apache Maven
+- Internet connection (required for the Web Scraper)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/vivek9729/Sysslan-Internship-Java-Projects.git
+```
+
+### Build the Project
+
+```bash
+mvn clean compile
+```
+
+Run the desired application from your IDE (VS Code/IntelliJ) or using Maven.
+
+---
+
+## 📚 Learning Outcomes
+
+This internship provided practical experience in:
+
+- Building modular Java applications
+- Managing projects using Maven
+- Web scraping with JSoup
+- Working with Java NIO for file operations
+- Reading and writing CSV/Text files
+- Exception handling and input validation
+- Writing clean and maintainable code
+
+---
+
+## 🚀 Future Improvements
+
+- Add a graphical user interface (JavaFX/Swing)
+- Store data in a relational database
+- Generate PDF and Excel reports
+- Implement logging using Log4j
+- Develop REST APIs using Spring Boot
+
+---
+
+## 👨‍💻 Author
+
+**Vivek Dubey**
+
+- GitHub: https://github.com/vivek9729
+- LinkedIn: https://www.linkedin.com/in/vivek-dubey-08b82229b
