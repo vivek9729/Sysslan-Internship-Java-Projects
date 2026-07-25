@@ -1,0 +1,24 @@
+========== Website Information ==========
+
+Title:
+Credly
+
+Meta Description:
+Credly is a global Open Badge platform that closes the gap between skills and opportunities. We work with academic institutions, corporations, and professional associations to translate learning outcomes into digital credentials that are immediately validated, managed, and shared.
+
+H1 Headings:
+No H1 headings found.
+
+First 10 Links:
+https://www.credly.com/earner/dashboard#skip-target
+https://www.credly.com/
+https://www.credly.com/users/sign_up
+https://www.credly.com/users/sign_in
+https://resources.credly.com/schedule-a-demo
+https://info.credly.com/about-us
+https://info.credly.com/legal
+https://www.pearson.com/en-gb/privacy-center/privacy-notices.html
+https://www.credly.com/docs/web_service_api
+https://www.credly.com/support
+
+Total Links Found: 12

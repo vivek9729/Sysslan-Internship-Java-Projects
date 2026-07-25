@@ -36,6 +36,34 @@ The projects demonstrate:
 | 📝 Personal Notes Manager | Provides note creation, search and management using text file storage. | File Handling, OOP |
 
 
+
+---
+
+# 📸 Project Demonstration
+
+## 🌐 Web Scraper
+
+![Web Scraper](Screenshots/WebScraperApp.png)
+
+---
+
+## 📁 Automated Folder Backup Tool
+
+![Folder Backup Tool](Screenshots/FolderBackupTool.png)
+
+---
+
+## 📦 CSV Inventory Management System
+
+![Inventory Management System](Screenshots/InventoryManagementSystem.png)
+
+---
+
+## 📝 Personal Notes Manager
+
+![Personal Notes Manager](Screenshots/PersonalNotesManager.png)
+
+
 ---
 
 ## 🛠️ Technologies Used
