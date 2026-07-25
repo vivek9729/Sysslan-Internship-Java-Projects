@@ -1,15 +1,27 @@
 # Maven
 target/
 
-# VS Code
-.vscode/
-
 # Java
 *.class
 
 # Logs
 *.log
 
-# OS Files
+# VS Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
+desktop.ini
